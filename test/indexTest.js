@@ -4,11 +4,12 @@ const path = require('path')
 const babel = require('babel-core');
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
-
 describe('index.js', function () {
-  describe('companyName', function () {
+});
+describe('index.js', function () {
+  describe('hanan', function () {
     it('is set as Scuber', function () {
-      expect(companyName).to.equal('Scuber');
+      expect(hanan).to.equal('Scuber');
     });
 
     it('is defined as a const', function () {
